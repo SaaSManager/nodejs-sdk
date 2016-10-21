@@ -1,0 +1,38 @@
+{
+  "name": "nodejs-sdk",
+  "version": "0.1.0",
+  "description": "Node.js SDK for SaaS Manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaaSManager/nodejs-sdk.git"
+  },
+  "keywords": [
+    "sdk",
+    "api",
+    "saasmgr",
+    "saasmanager",
+    "saas",
+    "manager"
+  ],
+  "author": "Grzegorz Gwoźdź",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/SaaSManager/nodejs-sdk/issues"
+  },
+  "homepage": "https://github.com/SaaSManager/nodejs-sdk#readme",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "jwt-simple": "^0.5.0",
+    "request": "^2.75.0",
+    "request-promise": "^4.1.1",
+    "lodash": "latest"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.6.1"
+  }
+}
